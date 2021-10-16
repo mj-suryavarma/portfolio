@@ -13,11 +13,11 @@ function project() {
             <h2 className="project_heading">Projects</h2>
             <div className="project_container container x-2">
                 <div className="news_project project">
-                    <a href="#" rel="noreferrer" className="project_link" >
+                    <a href="https://mj-web-news.netlify.app/" target="_blank" rel="noreferrer" className="project_link" >
                         <img src={NewsImage} className="project_image"/>
                     </a>
                     <div className="text-block">
-                        <a href="#" className="project_text_link" rel="noreferrer">
+                        <a href="https://mj-web-news.netlify.app/" target="_blank" className="project_text_link" rel="noreferrer">
                          <h3 className="project_text_align">News App</h3>
                    <h3> Read short news </h3>
                    </a>
@@ -25,11 +25,11 @@ function project() {
                     </div>
                 </div>
                 <div className="weather_project project">
-                    <a href="#" className="project_link">
+                    <a href="https://mj-weather-app.netlify.app/" rel="norefferrer" target="_blank" className="project_link">
                         <img src={weatherImage} className="project_image"/>
                     </a>
                     <div className="text-block">
-                        <a href="#" className="project_text_link" rel="noreferrer">
+                        <a href="https://mj-weather-app.netlify.app/" rel="norefferrer" target="_blank" className="project_text_link" rel="noreferrer">
                          <h3 className="project_text_align">Simple Weather App</h3>
                    <h3>View your Location</h3>
                    </a>

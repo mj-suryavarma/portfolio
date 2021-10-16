@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     align-items: flex-end;
     align-content: flex-end;
@@ -23,4 +23,8 @@
 .footer_icons{
     text-decoration: none;
     color: wheat;
+}
+
+.footer_icons:hover{
+    color: rgb(21, 147, 197);
 }

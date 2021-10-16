@@ -15,10 +15,10 @@ function Heading() {
         <div className="heading-container">
             <div>
                <div className ="social-media-container">
-                  <a href="#" className="social_media"><FontAwesomeIcon className="sm_linkedin" icon={faLinkedinIn} /></a>
-                  <a href="#" className="social_media"><FontAwesomeIcon className=" sm_github" icon={faGithubSquare} /> </a>
-                   <a href="#" className="social_media"><FontAwesomeIcon className="sm_twitter" icon={faTwitterSquare} /></a>
-                   <a href="#" className="social_media"><FontAwesomeIcon className="sm_stackoverflow" icon={faStackOverflow} /></a>
+                  <a href="https://www.linkedin.com/in/m-jithendra-suryavarma-9b245020a/" rel="social_media" target="_blank" className="social_media"><FontAwesomeIcon className="sm_linkedin" icon={faLinkedinIn} /></a>
+                  <a href="https://github.com/mj-suryavarma" rel="social_media" target="_blank" className="social_media"><FontAwesomeIcon className=" sm_github" icon={faGithubSquare} /> </a>
+                   <a href="https://twitter.com/mj_suryavarma" rel="social_media" target="_blank" className="social_media" ><FontAwesomeIcon className="sm_twitter" icon={faTwitterSquare} /></a>
+                   <a href="https://stackoverflow.com/users/16942358/suryavarma-mj" rel="social_media" target="_blank" className="social_media"><FontAwesomeIcon className="sm_stackoverflow" icon={faStackOverflow} /></a>
                 </div> 
                <div className="greeting-container">
                 <div className="greeting-content" >
