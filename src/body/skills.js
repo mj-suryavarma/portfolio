@@ -14,7 +14,7 @@ function skills() {
     return (  
         <div className=" container skill-container mt-4"> 
 
-        <h2 className="skill_heading ">Skill Level</h2>  
+        <h2 className="skill_heading ">Skills</h2>  
            <div className="align_container">
              
             <div className="progress_container mt-1 ">

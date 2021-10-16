@@ -30,7 +30,7 @@ function project() {
                     </a>
                     <div className="text-block">
                         <a href="#" className="project_text_link" rel="noreferrer">
-                         <h3 className="project_text_align">Weather App</h3>
+                         <h3 className="project_text_align">Simple Weather App</h3>
                    <h3>View your Location</h3>
                    </a>
 

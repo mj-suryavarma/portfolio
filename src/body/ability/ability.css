@@ -1,0 +1,53 @@
+.ability_container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 250px;
+    color: white;
+}
+.ability_icon_container{
+    font-size: 1.4rem;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+.mob_frd_container{
+    flex: 25%; 
+    
+}
+.mob_frd_icon{
+    font-size: 2rem;
+}
+.full_func_container{
+    flex: 25%;
+}
+.full_func_icon{
+    font-size: 2rem;
+}
+.responsive_container{
+    flex: 25%;
+    
+}
+.responsive_icon{
+    font-size: 2rem;
+
+}
+.user_frd_container{
+    
+    flex: 25%;
+}
+.user_frd_icon{
+    font-size: 2rem;
+
+}
+
+@media screen and (max-width:600px) {
+    .ability_icon_container{
+        flex-direction: column;
+    }
+
+}
