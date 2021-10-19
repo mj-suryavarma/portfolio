@@ -38,11 +38,11 @@ function project() {
                     
                     </div>
                 <div className="imdb_project project">
-                    <a href="#" className="project_link">
+                    <a href="https://mj-movie-data.netlify.app/" rel="norefferrer" target="_blank"  className="project_link">
                         <img src={MoviePopCorn} className="project_image"/>
                     </a>
                     <div className="text-block">
-                        <a href="#" className="project_text_link" rel="noreferrer">
+                        <a href="https://mj-movie-data.netlify.app/" rel="norefferrer" target="_blank"  className="project_text_link" rel="noreferrer">
                          <h3 className="project_text_align">Imdb App</h3>
                    <h3>Movie Data App</h3>
                    </a>

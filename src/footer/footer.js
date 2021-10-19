@@ -12,14 +12,27 @@ function footer() {
     
     return (
         <div className="bg-dark text-color-white footer_area">
-                <p className="copy_rights">&copy; mjs@ 2021</p>
-            <div className="container footer_social_media ">
+
+                <div className="contact_container ">
+
+                <div className="email_container">
+                   {/* <p className="contact_me">Contact Me:</p> */}
+                   <p className="email">mjsuryavarma@gmail.com</p>
+                   <p className="email">jithendrasuryavarma@gmail.com</p>
+                  
+               </div>   
+            <div className="footer_social_media ">
              <a href="https://www.linkedin.com/in/m-jithendra-suryavarma-9b245020a/" target="_blank" rel="social_media" className="footer_icons"><FontAwesomeIcon  icon={faLinkedinIn}/></a>
              <a href="https://github.com/mj-suryavarma" target="_blank" rel="social_media" className="footer_icons"><FontAwesomeIcon  icon={faGithubSquare}/></a>
              <a href="https://twitter.com/mj_suryavarma" target="_blank" rel="social_media" className="footer_icons"><FontAwesomeIcon  icon={faTwitterSquare}/></a>
              <a href="https://stackoverflow.com/users/16942358/suryavarma-mj" target="_blank" rel="social_media" className="footer_icons"><FontAwesomeIcon  icon={faStackOverflow}/></a>
             </div>
         </div>
+        
+        <p className="copy_rights">&copy; mjs@ 2021</p>
+    
+    </div>
+
     )
 }
 
