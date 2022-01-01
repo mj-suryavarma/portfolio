@@ -14,7 +14,7 @@ function Ability() {
             <div className="mob_frd_container">
                 
                 <div className="mob_frd_icon">
-                <FontAwesomeIcon icon={faMobileAlt}/>
+                <FontAwesomeIcon icon={faMobileAlt} className='ability_icon'/>
                 </div>
                 <div>
                     Mobile Friendly
@@ -23,7 +23,7 @@ function Ability() {
                 
          <div className="full_func_container">
                 <div className="full_func_icon">
-                <FontAwesomeIcon icon={faRocket}/>
+                <FontAwesomeIcon icon={faRocket} className='ability_icon'/>
                 </div>
                 <div>
                     High Responsive
@@ -32,7 +32,7 @@ function Ability() {
                 
                 <div className="responsive_container">
                   <div className="responsive_icon">
-                <FontAwesomeIcon icon={faTools}/>
+                <FontAwesomeIcon icon={faTools} className='ability_icon'/>
                 </div>
                 <div>
                     Fully Functional
@@ -41,7 +41,7 @@ function Ability() {
                 
                  <div className="user_frd_container">
                 <div className="user_frd_icon">
-                <FontAwesomeIcon icon={faUsers}/>
+                <FontAwesomeIcon icon={faUsers} className='ability_icon' />
                 </div>
                 <div>
                     User Friendly

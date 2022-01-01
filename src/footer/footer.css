@@ -1,5 +1,5 @@
 .footer_area{
-    color: wheat;
+    color: whitesmoke;
     padding: 20px;
 
 }
@@ -13,7 +13,10 @@
 .email_container > p{
     margin: 0;
 }
-
+.email_container > p >a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 .contact_container{
     display: flex;
     flex-direction: row;
@@ -30,7 +33,7 @@
 }
 .footer_icons{
     text-decoration: none;
-    color: wheat;
+    color: whitesmoke;
 }
 
 .footer_icons:hover{
@@ -53,4 +56,8 @@
         padding-right: 50px;
         justify-content: space-between;
     }
+    .email_container{
+        font-size: 1rem;
+    }
+
 }    
